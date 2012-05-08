@@ -4,4 +4,6 @@
   %head
     %title Fortune
   %body
-
+    - if(@fortune)
+      .fortune
+        = @fortune
